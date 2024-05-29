@@ -21,7 +21,7 @@ import { CloudinaryModule } from './cloudinary/cloudinary.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: '',
+      password: 'root',
       database: 'game',
       entities: [Users, Message],
       synchronize: true,
